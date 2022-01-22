@@ -99,7 +99,7 @@ $cam = query("SELECT*FROM calon_mhs");
                             <tr>
                                 <th scope="row"><?php echo $id; ?></th>
                                 <td><?php echo $cmb['nama']; ?></td>
-                                <td><img src="img/img1.jpg" <?php echo $cmb['foto_maba']; ?>" width="50px"></td>
+                                <td><img src="img/img1.jpg" <?php echo $cmb['foto_maba']; ?> width="50px"></td>
                                 <td><a href="detail.php?id=<?= $cmb['id']; ?>" class="btn btn-warning" role="button">detail</a></td>
                             </tr>
                             <?php $id++ ?>
